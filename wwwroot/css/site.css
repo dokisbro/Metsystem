@@ -2,34 +2,63 @@
     margin: 0;
     padding: 0;
 }
+
 body {
-    height: 850px;
-    background: linear-gradient(to top, #02043c, #03065a);
-    font-family: 'Museo Slab', sans-serif;
+    height: 950px;
+    background-repeat: no-repeat;
+    background:linear-gradient(to right,#003151, #57a0d2);
+    
 }
-header
-{
-width: 80%;
-padding: 15px 10%;
-color:#e95b5b;
-display:flex;
-justify-content: space-between;
-align-items: center;
-background: radial-gradient(white, #b6ff00);
-border-bottom: 2px solid #ff0000;
+body main h2 {
+        height: 750px;
+        background: url(/css/IMG/Journalist.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+
+header {
+    width: 80%;
+    padding: 15px 10%;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right,#003151, #57a0d2);
+    border-bottom: 2px solid white;
 }
 header.logo
 {
     font-weight: 600;
-    font-size: 25px;
+    font-size: 40px;
 
 }
-header nav a 
-{
-        color: #000000;
+    header nav a {
+        color: white;
         text-decoration: none;
-        margin-left: 15px;
+        margin-left: 40px;
+    }
+body main h1
+{
+        color: white;
+        text-decoration: none;
+        margin-left: 40px;
 }
     header nav a: hover { text-decoration: underline}
 
+
+main {
+    width: 80%;
+    padding: 15px 40%;
+    margin: 50px 0;
+}
+footer 
+{
+    margin-top: 950px;
+    text-align: center;
+    width: 100%;
+    padding: 25px 0;
+    color: #ffffff;
     
+    
+}
