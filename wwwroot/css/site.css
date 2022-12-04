@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 850px;
+    background: linear-gradient(to top, #02043c, #03065a);
+    font-family: 'Museo Slab', sans-serif;
+}
+header
+{
+width: 80%;
+padding: 15px 10%;
+color:#e95b5b;
+display:flex;
+justify-content: space-between;
+align-items: center;
+background: radial-gradient(white, #b6ff00);
+border-bottom: 2px solid #ff0000;
+}
+header.logo
+{
+    font-weight: 600;
+    font-size: 25px;
+
+}
+header nav a 
+{
+        color: #000000;
+        text-decoration: none;
+        margin-left: 15px;
+}
+    header nav a: hover { text-decoration: underline}
+
+    
